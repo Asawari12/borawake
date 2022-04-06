@@ -1,1 +1,11 @@
-hi this is my index file
+#!/bin/bash
+#print complete ip range 172.10.0.0/23
+
+for ((i=10;i<=11;i++))
+do
+for ((j=10;j<256;j++))
+do
+echo "172.10.$i.$j"
+done
+done
+
